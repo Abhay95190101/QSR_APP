@@ -1,4 +1,4 @@
-# Sizzle & Bun | QSR & Dine-In Digital Ordering System (PWA & Mobile APK)
+# SS Cafe & Restaurant | QSR & Dine-In Digital Ordering System (PWA & Mobile APK)
 
 A digital ordering and dine-in table QR management system with live kitchen sync, sound notifications, multi-role staff access, and 1-tap mobile installation / Android APK generation.
 
