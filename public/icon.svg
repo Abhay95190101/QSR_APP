@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ac2d00" />
+      <stop offset="100%" stop-color="#d73b00" />
+    </linearGradient>
+    <linearGradient id="bunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffb800" />
+      <stop offset="100%" stop-color="#e08200" />
+    </linearGradient>
+    <linearGradient id="pattyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#542314" />
+      <stop offset="100%" stop-color="#331409" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background Squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <g filter="url(#shadow)">
+    <!-- Top Bun -->
+    <path d="M 120 210 C 120 130, 392 130, 392 210 Z" fill="url(#bunGrad)" />
+    
+    <!-- Sesame Seeds -->
+    <circle cx="210" cy="165" r="5" fill="#fff5d0" opacity="0.9" />
+    <circle cx="260" cy="150" r="5.5" fill="#fff5d0" opacity="0.9" />
+    <circle cx="310" cy="170" r="5" fill="#fff5d0" opacity="0.9" />
+    <circle cx="250" cy="180" r="4.5" fill="#fff5d0" opacity="0.9" />
+    <circle cx="170" cy="185" r="4.5" fill="#fff5d0" opacity="0.9" />
+
+    <!-- Cheese Slice Melt -->
+    <path d="M 115 220 L 397 220 L 370 260 L 330 235 L 290 270 L 250 235 L 180 265 L 140 230 Z" fill="#ffd000" />
+
+    <!-- Beef Patty -->
+    <rect x="110" y="240" width="292" height="46" rx="23" fill="url(#pattyGrad)" />
+
+    <!-- Lettuce Wave -->
+    <path d="M 115 292 Q 135 310 155 292 Q 175 310 195 292 Q 215 310 235 292 Q 255 310 275 292 Q 295 310 315 292 Q 335 310 355 292 Q 375 310 397 292 L 397 305 Q 375 320 355 305 Q 335 320 315 305 Q 295 320 275 305 Q 255 320 235 305 Q 215 320 195 305 Q 175 320 155 305 Q 135 320 115 305 Z" fill="#38a169" />
+
+    <!-- Bottom Bun -->
+    <path d="M 120 310 L 392 310 C 392 360, 120 360, 120 310 Z" fill="url(#bunGrad)" />
+  </g>
+</svg>

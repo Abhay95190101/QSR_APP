@@ -1,0 +1,81 @@
+{
+  "id": "/",
+  "name": "SS Cafe & Restaurant",
+  "short_name": "SS Cafe",
+  "description": "Digital ordering and dine-in table QR menu system for SS Cafe & Restaurant.",
+  "lang": "en-US",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "theme_color": "#ac2d00",
+  "background_color": "#fff8f5",
+  "categories": ["food", "lifestyle", "shopping", "business"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dining Menu",
+      "short_name": "Menu",
+      "description": "Explore gourmet dishes, burgers, and cafe drinks",
+      "url": "/?mode=menu",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Table QR Generator",
+      "short_name": "Table QR",
+      "description": "Generate Dine-In table order QR codes",
+      "url": "/?mode=qr",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Orders",
+      "short_name": "Kitchen",
+      "description": "Track active table orders and live prep status",
+      "url": "/?mode=orders",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

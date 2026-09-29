@@ -1,0 +1,8 @@
+{
+  "name": "QSR_APP",
+  "description": "Premium digital ordering system and dining customer QR generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
